@@ -1,0 +1,87 @@
+
+
+   /* Global Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  }
+  
+  .container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  }
+  
+  /* Todo List Styles */
+  ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  
+  li {
+  margin-bottom: 1rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todoCard{
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  /* Add Todo Form Styles */
+  form {
+  margin-top: 2rem;
+  }
+  
+  input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  width: 75%;
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+  background-color: white;
+  outline: none;
+  }
+  
+  button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .updateBtn{
+  padding: 0.2rem;
+  font-size: 1rem;
+  color: #4caf50;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: background-color 0.3s ease;
+  }
+  
+  .updateBtn:hover,
+  button:hover {
+  background-color: #3d8b3d;
+  }
+  
+  button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  }
